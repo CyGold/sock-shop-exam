@@ -1,3 +1,3 @@
 aws_region        = "eu-west-2"
 environment       = "dev"
-business_division = "que"
+business_division = "hr"
