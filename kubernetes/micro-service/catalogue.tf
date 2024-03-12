@@ -1,7 +1,7 @@
 # Create kubernetes deployment for cart 
 
 resource "kubernetes_deployment" "kube-catalogue-deployment" {
-  metadata {+
+  metadata {
     name      = "catalogue"
     namespace = kubernetes_namespace.kube-namespace.id
     labels = {
